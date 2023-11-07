@@ -8,7 +8,7 @@
 ## 🏗️Arquitetura e modelagem 
 
 O projeto adota uma arquitetura em camadas seguindo o padrão MVC, com a separação clara das responsabilidades entre os componentes. O modelo de dados é bem estruturado, utilizando classes DTO para transferência de dados e seguindo o princípio de encapsulamento. A arquitetura é fácil de entender e seguir.
-
+```
 └── com
     └── provateTecnica
         └── Api
@@ -44,6 +44,7 @@ O projeto adota uma arquitetura em camadas seguindo o padrão MVC, com a separa�
                 ├── CellFormatUtil.java
                 ├── DataUtil.java
                 └── StaticsUtil.java
+```
 
 ## 🔍Estratégias Possíveis 
     Foram consideradas diferentes estratégias para caching, incluindo o uso de Caffeine e Ehcache, além do Redis como um mecanismo de cache distribuído. Também foram considerados padrões de projeto como o Circuit Breaker para lidar com falhas em chamadas de API externas.
